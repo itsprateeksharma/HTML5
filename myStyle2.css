@@ -1,0 +1,10 @@
+body{ background-color: thistle;}
+
+H2 {color:limegreen;
+    font-family:"Arial";
+    font-size:normal;
+    }
+    #warning {color:salmon;
+    font-weight:bold;
+    font-style:italic;
+    }

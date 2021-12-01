@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <link rel="stylesheet" href="myStyle.css">
+</head>
+<body>
+    <h1>Student Information</h1>
+
+    <table border="1px">
+        <tr bgcolor="lightpink">
+            <th>Roll no</th>
+            <th>Name</th>
+            <th>Branch</th>
+            <th>Contact</th>
+        </tr>
+        <tr>
+            <td>101</td>
+            <td>Avi</td>
+            <td>CSE</td>
+            <td>98647799</td>
+        </tr>
+        <tr>
+            <td>102</td>
+            <td>Eva</td>
+            <td>EE</td>
+            <td>847799</td>
+        </tr>
+
+        <tr>
+            <td>103</td>
+            <td>Kyle</td>
+            <td>ME</td>
+            <td>78998765</td>
+        </tr>
+
+        <tr>
+            <td>104</td>
+            <td>Leo</td>
+            <td>CSE</td>
+            <td>98668721</td>
+        </tr>
+    </table>
+<!-- Rowspan & Colspan Demo- merging of rows/columns-->
+    <h1>Employee Information</h1>
+    <table border="2" cellpadding="15" cellspacing="5">
+        <tr bgcolor="lightbrown">
+            <th>EmpID</th>
+            <th>Emp Name</th>
+            <th colspan="2">Technologies</th>
+        </tr>
+        <tr>
+            <td>9901</td>
+            <td>John</td>
+            <td align="center" colspan="2">Spring Framework</td>
+        </tr>
+        <tr>
+            <td>8801</td>
+            <td>Harris</td>
+            <td align="center" colspan="2">Angular</td>
+        </tr>
+
+        <tr>
+            <td>7701</td>
+            <td>Harris</td>
+            <td align="center">Angular</td>
+            <td align="center">NodeJs</td>
+
+        </tr>
+
+        <tr>
+            <td>7701</td>
+            <td>Arun</td>
+            <td align="center" colspan="2">HTML5</td>
+        </tr>
+
+        <tr>
+            <td>3301</td>
+            <td>Navin</td>
+            <td align="center">Jquery</td>
+            <td align="center">Spring Boot</td>
+
+        </tr>
+
+        <tr>
+            <td rowspan="2">4401</td>
+            <td rowspan="2">Alex</td>
+            <td align="center" colspan="2">JavaScript</td>
+        </tr>
+        <tr>
+            <td  align="center" colspan="2"> JQuery</td>
+        </tr>
+
+
+
+    </table>
+    <p>Thank you!</p>
+
+</body>
+</html>
